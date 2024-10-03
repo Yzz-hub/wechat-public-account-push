@@ -6,12 +6,13 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  USE_PASSAGE: 'server-chan',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxde6726a09c01de06',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '64945bef30d9acec45217b4f3df26122',
+  APP_SECRET: '',
 
   PROVINCE: '北京',
   CITY: '北京',
@@ -21,9 +22,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小丈母娘',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o51op6bHNfLNE8KPSo15uPbfUkQc',
+      id: 'SCT259258TdkY6ELLsAxtUFuzpXvoedzLi',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TZ5m2hxGFKlWSvkYqnL1WTCobw7NpPQ4_wJ9MeJlAlE',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-03',
       festivals: [
